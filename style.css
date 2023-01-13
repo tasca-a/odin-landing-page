@@ -1,0 +1,26 @@
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* HEADER */
+.header {
+    display: flex;
+    align-items: baseline;
+    padding: 0 150px;
+    gap: 24px;
+    background-color: #1F2937;
+}
+
+.logo {
+    margin-right: auto;
+}
+
+h1 {
+    color: #F9FAF8;
+    font-size: 24px;
+}
+
+a {
+    color: #E5E7EB;
+}
