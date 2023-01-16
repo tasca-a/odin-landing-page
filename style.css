@@ -12,6 +12,27 @@ body {
     background-color: #1F2937;
 }
 
+/* FIRST SECTION */
+.first-section {
+    display: flex;
+    justify-content: center;
+    padding: 100px 150px;
+    background-color: #1F2937;
+    gap: 40px;
+    align-items: stretch;
+}
+
+.hero-title {
+    font-size: 48px;
+    font-weight: 1000;
+    color: #F9FAF8;
+}
+
+.hero-image {
+    width: 1000px;
+    background-color: grey;
+}
+
 .logo {
     margin-right: auto;
 }
@@ -21,6 +42,17 @@ h1 {
     font-size: 24px;
 }
 
-a {
+a, p{
     color: #E5E7EB;
+    font-size: 18px;
+    text-decoration: none;
+}
+
+button {
+    background-color: #3882F6;
+    color: white;
+    padding: 10px 25px;
+    font-weight: bold;
+    border-radius: 10px;
+    border: none;
 }
