@@ -91,6 +91,32 @@ body {
     font-size: 18px;
 }
 
+/* FOURTH SECTION */
+.action-container {
+    padding: 50px 160px;
+}
+
+.action {
+    display: flex;
+    background-color: #3882F6;
+    padding: 25px 100px;
+    border-radius: 8px;
+}
+
+.action p {
+    font-size: 14px;
+    margin: 0;
+}
+
+.action div {
+    flex: 1;
+}
+
+.action button {
+    border-style: solid;
+    border-color: #F9FAF8;
+}
+
 /* Basic HTML elements */
 h1 {
     color: #F9FAF8;
@@ -101,6 +127,13 @@ h2 {
     color: #1F2937;
     font-size: 36px;
     font-weight: bolder;
+}
+
+h3 {
+    color: #F9FAF8;
+    font-size: 24px;
+    font-weight: bold;
+    margin: 0;
 }
 
 a, p{
